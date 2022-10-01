@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Nexa;
+  src: url('../../Assets/fonts/NexaRegular.otf');
+}
+@font-face {
+  font-family: NexaXBold;
+  src: url('../../Assets/fonts/NexaXBold.otf');
+}
+.navbar {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(7, 7, 7), rgb(9, 9, 9));
+  height: 150px;
+  width: 100vw;
+
+  li {
+    font-family: Nexa;
+    font-family: 'Nexa';
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.085em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .hyperlink {
+    text-decoration: none;
+    color: white;
+  }
+  .nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    margin-left: 110px;
+    .team-name {
+      display: flex;
+      flex-direction: row;
+      margin-left: 22px;
+
+      .last-name {
+        margin-left: 10px;
+        font-family: NexaXBold;
+      }
+    }
+  }
+  .nav2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    .element2 {
+      margin-right: 74px;
+      font-size: 13px;
+    }
+    .user-logo {
+      margin-left: 13px;
+      margin-right: 93px;
+    }
+  }
+  .logo-nav2 {
+    margin-right: 93px;
+  }
+}

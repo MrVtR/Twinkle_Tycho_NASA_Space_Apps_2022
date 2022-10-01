@@ -1,0 +1,154 @@
+@font-face {
+  font-family: Nexa;
+  src: url('../../Assets/fonts/NexaRegular.otf');
+}
+@font-face {
+  font-family: NexaLight;
+  src: url('../../Assets/fonts/NexaLight.otf');
+}
+@font-face {
+  font-family: NexaBold;
+  src: url('../../Assets/fonts/NexaBold.otf');
+}
+@font-face {
+  font-family: NexaBlack;
+  src: url('../../Assets/fonts/NexaBlack.otf');
+}
+@font-face {
+  font-family: NexaXBold;
+  src: url('../../Assets/fonts/NexaXBold.otf');
+}
+@mixin stroke($color: #000, $size: 1px) {
+  text-shadow: -#{$size} -#{$size} 0 $color, 0 -#{$size} 0 $color,
+    #{$size} -#{$size} 0 $color, #{$size} 0 0 $color, #{$size} #{$size} 0 $color,
+    0 #{$size} 0 $color, -#{$size} #{$size} 0 $color, -#{$size} 0 0 $color;
+}
+
+.main {
+  color: white;
+  // margin-left: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .main-text {
+    span {
+      font-family: NexaBlack;
+      margin-right: 15px;
+    }
+    display: flex;
+    flex-direction: column;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 67.6875px;
+    line-height: 81px;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    margin-top: 40px;
+
+    text-shadow: 0px 4.89173px 29.3504px rgba(218, 204, 255, 0.8);
+    .last-word {
+      color: black;
+      // text-shadow: 0 0 4px #9f7ff3;
+      @include stroke(#9f7ff3, 2px);
+    }
+  }
+  .subtitle {
+    align-self: center;
+    margin-right: 100px;
+    margin-bottom: 15px;
+    .title1 {
+      font-family: NexaBold;
+      font-size: 20px;
+      line-height: 20px;
+      letter-spacing: 0.005em;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    .title2 {
+      font-family: NexaLight;
+      width: 750px;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.005em;
+      text-transform: uppercase;
+    }
+  }
+}
+.images-main {
+  margin-left: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  a {
+    text-decoration: none;
+  }
+  img {
+    margin-bottom: 52px;
+    clear: left;
+  }
+  .legenda {
+    color: white;
+    display: block;
+    position: absolute;
+    top: 0;
+    float: left;
+    margin-left: 36px;
+    margin-top: 75px;
+    h2 {
+      font-family: NexaBlack;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 0.005em;
+      text-transform: uppercase;
+      text-shadow: 0px 4.89173px 34.2421px rgba(255, 255, 255, 0.33);
+      margin-bottom: 10px;
+    }
+    p {
+      font-family: NexaLight;
+      max-width: 636px;
+      font-size: 14px;
+      line-height: 144%;
+      text-align: justify;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+  }
+  .legenda2 {
+    color: white;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: left;
+    margin-right: 36px;
+    margin-top: 75px;
+    h2 {
+      text-align: right;
+      font-family: NexaBlack;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 0.005em;
+      text-transform: uppercase;
+      text-shadow: 0px 4.89173px 34.2421px rgba(255, 255, 255, 0.33);
+      margin-bottom: 10px;
+    }
+    p {
+      text-align: right;
+      font-family: NexaLight;
+      max-width: 636px;
+      font-size: 14px;
+      line-height: 144%;
+      text-align: justify;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+  }
+  figure {
+    position: relative;
+    float: left;
+  }
+}
