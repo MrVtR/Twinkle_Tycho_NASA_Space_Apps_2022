@@ -1,4 +1,6 @@
 import Home from './Home/Home';
 import Learn from './Learn/Learn';
 import Play from './Play/Play';
-export { Home, Learn, Play };
+import Visualizer from './Visualizer/Visualizer';
+
+export { Home, Learn, Play, Visualizer };

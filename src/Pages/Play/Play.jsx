@@ -9,11 +9,9 @@ export default function Play() {
         <iframe
           width="1000"
           height="700"
-          src="https://www.youtube.com/embed/2UnWZMsTwHA"
-          title="Linkin Park Hybrid Theory Full Album HD"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          title="Create your Own Star Nasa Space Apps 2022"
+          src="https://twinkle-tycho-nasa-space-apps-star.netlify.app"
+          className="final-video"
         ></iframe>
       </div>
     </div>

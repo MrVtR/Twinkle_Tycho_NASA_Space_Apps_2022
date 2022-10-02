@@ -29,7 +29,7 @@ function Nav() {
         </li>
         <li className="element2">
           <Link to="/play" className="hyperlink">
-            PLAY
+            START SIMULATION
           </Link>
         </li>
         <li className="element2">
