@@ -1,4 +1,4 @@
-import { Home, Learn, Play, Visualizer } from './Pages/exportPages';
+import { Home, Learn, Play, Visualizer, Resources } from './Pages/exportPages';
 import {
   BrowserRouter as Router,
   Route,
@@ -42,6 +42,7 @@ function App() {
           <Route exact path="/learn" element={<Learn />} />
           <Route exact path="/play" element={<Play />} />
           <Route exact path="/visualizer" element={<Visualizer />} />
+          <Route exact path="/resources" element={<Resources />} />
         </Routes>
       </Wrapper>
     </Router>

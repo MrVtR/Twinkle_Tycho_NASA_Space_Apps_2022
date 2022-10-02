@@ -1,0 +1,260 @@
+@font-face {
+  font-family: Nexa;
+  src: url('../../Assets/fonts/NexaRegular.otf');
+}
+@font-face {
+  font-family: NexaLight;
+  src: url('../../Assets/fonts/NexaLight.otf');
+}
+@font-face {
+  font-family: NexaLight2;
+  src: url('../../Assets/fonts/NexaLight2.otf');
+}
+@font-face {
+  font-family: NexaBold;
+  src: url('../../Assets/fonts/NexaBold.otf');
+}
+@font-face {
+  font-family: NexaBlack;
+  src: url('../../Assets/fonts/NexaBlack.otf');
+}
+@font-face {
+  font-family: NexaXBold;
+  src: url('../../Assets/fonts/NexaXBold.otf');
+}
+@mixin stroke($color: #000, $size: 1px) {
+  text-shadow: -#{$size} -#{$size} 0 $color, 0 -#{$size} 0 $color,
+    #{$size} -#{$size} 0 $color, #{$size} 0 0 $color, #{$size} #{$size} 0 $color,
+    0 #{$size} 0 $color, -#{$size} #{$size} 0 $color, -#{$size} 0 0 $color;
+}
+
+.resources {
+  img {
+    object-fit: none;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  .title {
+    color: white;
+    font-family: NexaBold2;
+    font-size: 28px;
+    margin: 11px 0 0 0;
+  }
+  .subtitle {
+    color: white;
+    font-family: NexaLight2;
+    font-size: 24px;
+    margin: 4px 0 0 0;
+  }
+  .main3 {
+    color: white;
+    margin-left: 280px;
+    .main-text {
+      span {
+        font-family: NexaBlack;
+        margin-right: 15px;
+      }
+      font-size: 67.6875px;
+      line-height: 81px;
+      letter-spacing: 0.055em;
+      text-transform: uppercase;
+      margin-top: 71px;
+
+      text-shadow: 0px 4.89173px 29.3504px rgba(218, 204, 255, 0.8);
+    }
+    .subtitle {
+      margin-bottom: 63px;
+      .title2 {
+        font-family: NexaLight2;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.005em;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 280px;
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 30px;
+
+      p {
+        color: white;
+        font-family: NexaLight2;
+        font-size: 20px;
+        max-width: 300px;
+        text-align: center;
+      }
+    }
+  }
+  .mt4 {
+    margin-top: 71px;
+  }
+  .py-libs {
+    display: flex;
+    flex-direction: row;
+
+    width: 90vw;
+    margin-left: 280px;
+
+    #python {
+      margin-right: 26px;
+      align-self: center;
+    }
+    #line {
+      margin-right: 28px;
+    }
+    .title-sub {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      color: white;
+    }
+    .title-sub2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      color: white;
+      .title {
+        font-family: NexaBold;
+        font-size: 24px;
+        margin: 11px 0 0 0;
+        font-size: 24px;
+        line-height: 24px;
+        /* identical to box height */
+
+        letter-spacing: 0.005em;
+      }
+      .subtitle {
+        font-family: NexaLight2;
+        font-size: 20px;
+        margin: 4px 0 0 0;
+      }
+    }
+
+    #lightcurve {
+      margin-right: 280px;
+    }
+  }
+  .lib {
+    display: flex;
+    flex-direction: row;
+    img {
+      margin-right: 13px;
+      margin-bottom: 23px;
+    }
+    #scikit {
+      margin-right: 150px;
+    }
+    .title {
+      font-family: NexaBold;
+    }
+  }
+  .elements1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 280px;
+    align-items: center;
+    justify-content: center;
+    .lib {
+      margin-right: 54px;
+      margin-top: 91px;
+      margin-bottom: 78px;
+      .title {
+        font-family: NexaBold;
+      }
+    }
+  }
+  .elements2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 280px;
+    .lib {
+      margin-right: 41px;
+      margin-bottom: 148px;
+      .title {
+        font-family: NexaBold;
+      }
+    }
+  }
+  .about-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    margin-left: 280px;
+    margin-bottom: 109px;
+    .title-sub {
+      margin-left: 34px;
+      p {
+        margin-bottom: 20px;
+        max-width: 700px;
+      }
+      .title {
+        font-family: NexaXBold;
+        font-size: 68px;
+        line-height: 24px;
+        /* identical to box height */
+        text-shadow: 0px 4.89173px 29.3504px rgba(218, 204, 255, 0.8);
+
+        letter-spacing: 0.005em;
+      }
+      .subtitle {
+        font-family: NexaLight2;
+        font-size: 14px;
+        text-align: justify;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 42px;
+    .tycho {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .ty {
+        font-family: Nexa;
+        color: white;
+        font-size: 22px;
+      }
+      #ty-bold {
+        font-family: NexaXBold;
+      }
+    }
+    #linhas {
+      margin-left: 43px;
+      margin-right: 43px;
+    }
+    .membro {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 44px;
+      p {
+        color: white;
+        font-family: Nexa;
+        max-width: 130px;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@ export default function Learn() {
   document.body.style.overflowY = 'visible';
   document.body.style.overflowX = 'hidden';
   return (
-    <div className="learn" id="learn">
+    <div className="learn">
       <Navbar />
       <div className="shadow-image">
         <div className="main2">
