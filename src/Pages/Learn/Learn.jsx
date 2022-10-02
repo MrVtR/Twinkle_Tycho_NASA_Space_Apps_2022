@@ -6,8 +6,9 @@ import star from '../../Assets/images/star.png';
 
 export default function Learn() {
   document.body.style.overflowY = 'visible';
+  document.body.style.overflowX = 'hidden';
   return (
-    <div className="learn">
+    <div className="learn" id="learn">
       <Navbar />
       <div className="shadow-image">
         <div className="main2">
@@ -58,10 +59,8 @@ export default function Learn() {
         <div className="video-text">
           <h2>EMBARKING INTO THE UNIVERSE OF VARIABLE STARS</h2>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            A brief introduction to variable stars and everything you need to
+            know to board on this journey.
           </p>
         </div>
       </div>
@@ -71,10 +70,8 @@ export default function Learn() {
             PULSALTING STARS AND THE NEIGHBOR GALAXY METER (CEPHEID VARIABLES)
           </h2>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Intrinsic variable stars of Pulsating-class, their types and how
+            they can be used to know more about our own galaxy better.
           </p>
         </div>
         <iframe
@@ -101,21 +98,19 @@ export default function Learn() {
         <div className="video-text">
           <h2>CATACLYSMIC VARIABLES (NOVAE E SUPERNOVAE)</h2>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Intrinsic variable stars of Cataclysmic-class, their types and how
+            explosions can help us understand the speed at which the universe
+            expands.
           </p>
         </div>
       </div>
       <div className="video">
         <div className="video-text">
-          <h2>ECLIPSING BINARIES</h2>
+          <h2>EXTRINSIC VARIABLE STARS - ECLIPSING AND ROTATIONAL VARIABLES</h2>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Extrinsic variable stars: Eclipsing-class and how they, such as our
+            sun and moon, can also eclipse and Rotational-class and how large
+            stains can also cause starlight to vary.
           </p>
         </div>
         <iframe
@@ -140,58 +135,33 @@ export default function Learn() {
         ></iframe>
 
         <div className="video-text">
-          <h2>ROTATING VARIABLES</h2>
+          <h2>PECULIAR VARIABLES</h2>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Knowing some peculiar events that affect a star's light. Dark and
+            bright: sudden dims and intense frares.
           </p>
         </div>
-      </div>
-      <div className="video">
-        <div className="video-text">
-          <h2>RARE EVENTS</h2>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
-        <iframe
-          width="636"
-          height="358"
-          src="https://www.youtube.com/embed/4O746lUintc"
-          title="Cyberpunk: Edgerunners Soundtrack -  I Really Want to Stay at Your House"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
       </div>
       <div className="image-video">
         <div className="video2">
           <img src={finish} alt="" />
           <div className="video-text">
-            <h2>RARE EVENTS</h2>
+            <h2>CONGRATULATIONS!! YOU HAVE COMPLETED THE JOURNEY.</h2>
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              In the quiz below, Test your knowledge by trying to get the type
+              of each variable star right from real gifs.
             </p>
           </div>
         </div>
-        <iframe
-          width="1000"
-          height="561"
-          src="https://www.youtube.com/embed/4O746lUintc"
-          title="Cyberpunk: Edgerunners Soundtrack -  I Really Want to Stay at Your House"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          className="final-video"
-        ></iframe>
+        <div>
+          <iframe
+            width="1000"
+            height="561"
+            title="Quiz Nasa Space Apps 2022"
+            src="https://twinkle-tycho-game-nasa-space-apps.netlify.app"
+            className="final-video"
+          ></iframe>
+        </div>
       </div>
     </div>
   );
