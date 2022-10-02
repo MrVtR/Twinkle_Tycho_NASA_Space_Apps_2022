@@ -7,8 +7,8 @@ export default function Play() {
       <Navbar />
       <div className="game">
         <iframe
-          width="1000"
-          height="700"
+          width="850"
+          height="600"
           title="Create your Own Star Nasa Space Apps 2022"
           src="https://twinkle-tycho-nasa-space-apps-star.netlify.app"
           className="final-video"

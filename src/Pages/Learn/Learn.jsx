@@ -26,8 +26,8 @@ export default function Learn() {
           </div>
           <div className="subtitle">
             <p className="title2">
-              our goal is to give you an interactive way to learn about variable
-              stars and how they generate amazing events in our universe.
+              Are you ready to dive into the universe of variable stars? We look
+              forward to teaching you!
             </p>
           </div>
         </div>

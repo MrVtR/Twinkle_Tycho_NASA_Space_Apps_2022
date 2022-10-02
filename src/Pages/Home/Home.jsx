@@ -41,13 +41,12 @@ export default function Home() {
             <figcaption className="legenda">
               <h2>LEARN</h2>
               <p>
-                A curriculum to help people learn more about the stars in the
-                night sky and its variations. Based on NASA and Partners data
-                and thought to be dynamic and easily understandable, these short
+                A curriculum to help people learn about the star's variability
+                in the night sky. Based on NASA and Partners data, these short
                 video lessons will teach you everything you need to know about
-                stellar variability. In the end you can prove your knowledge in
-                an interactive Quiz. Any further questions? Sam, the AI ChatBot
-                will help you.
+                stellar variability. In the end, you can prove your knowledge in
+                our Quiz. Any further questions? Sam, the AI ChatBot will help
+                you.
               </p>
             </figcaption>
           </figure>
@@ -58,10 +57,11 @@ export default function Home() {
             <figcaption className="legenda2">
               <h2>VISUALIZE</h2>
               <p>
-                Based on Light Curve data from Kepler Telescope and Digital
-                Modeling, you can create your own variable star. Choose the
-                variable class you like the most as well as magnitude variation
-                and period and see how your star would look like!
+                Based on data from NASA and Partner Agencies, our visualizer
+                provides an immersion that allows you to interact and analyze
+                multiple variable stars. Learn even more about them, seeing how
+                they would look in the night sky. You can also check our
+                Forecast Model, which recognizes if a star is variable or not.
               </p>
             </figcaption>
           </figure>
@@ -72,10 +72,10 @@ export default function Home() {
             <figcaption className="legenda">
               <h2>CREATE YOUR OWN STAR</h2>
               <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Based on Light Curve data from Kepler Telescope and Digital
+                Modeling, you can create your variable star! Choose the variable
+                class you like the most, as well as magnitude variation and
+                period to see what your star would look.
               </p>
             </figcaption>
           </figure>

@@ -32,6 +32,8 @@ import m5 from '../../Assets/images/m5.png';
 import m6 from '../../Assets/images/m6.png';
 
 export default function Resources() {
+  document.body.style.overflowY = 'visible';
+  document.body.style.overflowX = 'hidden';
   return (
     <div className="resources">
       <Navbar />
