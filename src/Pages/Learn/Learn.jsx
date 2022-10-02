@@ -5,6 +5,7 @@ import start from '../../Assets/images/start.png';
 import star from '../../Assets/images/star.png';
 
 export default function Learn() {
+  document.body.style.overflowY = 'visible';
   return (
     <div className="learn">
       <Navbar />

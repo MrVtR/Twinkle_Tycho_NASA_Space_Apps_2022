@@ -6,6 +6,9 @@ import back3 from '../../Assets/images/back3.png';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
+  document.body.style.overflowY = 'visible';
+  document.body.style.overflowX = 'hidden';
+
   return (
     <div className="Home">
       <Navbar />

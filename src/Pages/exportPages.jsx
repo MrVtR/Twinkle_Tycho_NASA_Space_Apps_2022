@@ -1,4 +1,4 @@
 import Home from './Home/Home';
 import Learn from './Learn/Learn';
-
-export { Home, Learn };
+import Play from './Play/Play';
+export { Home, Learn, Play };

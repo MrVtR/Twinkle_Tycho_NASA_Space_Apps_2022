@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Navbar.scss';
 import logo from '../../Assets/images/logo.png';
-import user from '../../Assets/images/user.png';
 function Nav() {
   return (
     <nav className="navbar">
@@ -38,9 +37,6 @@ function Nav() {
             RESOURCES
           </Link>
         </li>
-        <div className="logo-nav2">
-          <img src={user} alt="" />
-        </div>
       </div>
     </nav>
   );
