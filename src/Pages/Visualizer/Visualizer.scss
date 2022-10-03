@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Nexa;
+  src: url('../../Assets/fonts/NexaRegular.otf');
+}
+@font-face {
+  font-family: NexaLight;
+  src: url('../../Assets/fonts/NexaLight.otf');
+}
+@font-face {
+  font-family: NexaLight2;
+  src: url('../../Assets/fonts/NexaLight2.otf');
+}
+@font-face {
+  font-family: NexaBold;
+  src: url('../../Assets/fonts/NexaBold.otf');
+}
+@font-face {
+  font-family: NexaBlack;
+  src: url('../../Assets/fonts/NexaBlack.otf');
+}
+@font-face {
+  font-family: NexaXBold;
+  src: url('../../Assets/fonts/NexaXBold.otf');
+}
+@mixin stroke($color: #000, $size: 1px) {
+  text-shadow: -#{$size} -#{$size} 0 $color, 0 -#{$size} 0 $color,
+    #{$size} -#{$size} 0 $color, #{$size} 0 0 $color, #{$size} #{$size} 0 $color,
+    0 #{$size} 0 $color, -#{$size} #{$size} 0 $color, -#{$size} 0 0 $color;
+}
+
+.visualizer {
+  .aladin {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .legendas {
+      display: flex;
+      flex-direction: column;
+      .legenda {
+        margin-right: 20px;
+      }
+    }
+
+    ul {
+      font-family: NexaXBold;
+      max-width: 300px;
+      font-size: 24px;
+      color: white;
+      list-style-type: none;
+      padding: 10px;
+      li {
+        font-family: NexaBold;
+        font-size: 18px;
+      }
+      .sub-item {
+        font-family: NexaLigaht1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
