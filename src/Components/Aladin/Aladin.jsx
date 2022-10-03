@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import $ from 'jquery';
 const Aladin = () => {
   useEffect(() => {
     let aladin = window.A.aladin('#aladin-lite-div', {
