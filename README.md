@@ -3,12 +3,17 @@
 ## Project concept
 This project consists of performing the NASA Space Apps Marathon 2022 challenge, our team's theme is [TWINKLE, TWINKLE, LITTLE STAR](https://2022.spaceappschallenge.org/challenges/2022-challenges/twinkle-twinkle-little-star/teams/twinkle-tycho/project), we use ReactJS to perform the project, along with the help of libraries that will be listed below <br/>
 The site created has Six main tabs planned:
-1. **Home** - Página para introduzir o leitor ao conteúdo do site, onde fornecemos descrições de quais seções principais que poderão ser econtradas, todas estes textos possuem um redirecionamento para a respectiva seção.
-2. **Visualizer** - Página destinada para apresentar o visualizador especial de estrelas adicionado pelo grupo, dentro dele, é possível pesquisar e escolher corpos celestes para verificar mais deatalhes sobre eles. Além disso, foi feito a inclusão de alguns exemplos e Estrelas Variáveis predizidos pelo grupo durante a etapa de inclusão de Machine Learning, para classificar estrelas, verificando se há ou não a presença de variações estelares. Por fim, esta aba também apresenta ao leitor uma legenda e quais funções estão presentes no visualizações, bem como a forma de usá-las.  
-3. **Learn** - Esta página contém uma forma de ensinar o leitor sobre o assunto de Estrelas Variáveis, contando com uma série de videos educativos feitos pelo grupo durante o desafio, o leitor poderá assisí-los e ao final de todos os vídeos, testar seus conhecimentos obtidos em um quiz criado pelos membros.
-4. **Start Simulation** - Nesta seção, há a inclusão de um jogo feito pela equipe, com o objetivo de permitir que o leitor tenha uma imersão no assunto, criando a sua própria estrela. A partir de opções dentro do jogo, um fluxo de programação é estabelecido e ao final, é mostrado para o leitor o resultado final gerado, sendo uma breve descrição da estrela criada e qual o seu comportamento variável que pode ser observado em forma de gif.
-5. **Resources** - Nesta página, o leitor poderá conferir todos os dados que foram utilizados pelo grupo, bem como os softwares e bibliotecas usadas, ao final da página, há uma seção que informa como o grupo foi formado e fotos individuais de cada membro.
-6. **Chatbot** - O chatbot não é uma página, mas sim uma função que está presente no site inteiro de forma interativa. O leitor pode fazer perguntas para uma inteligência artificial instanciada pelo grupo no site, que foi treinada com dados gerados de forma autoral, com isso, é possível aprender mais sobre o assunto do desafio e do funcionamento da aplicação, além de descobrir diversas curiosidades encontradas pelo grupo durante o projeto de uma forma lúdica e prática.
+1. **Home** - Page to introduce the reader to the content of the site, where we provide descriptions of which main sections can be found, all these texts have a redirect to the respective section.
+
+2. **Visualizer** - Page destined to present the special star viewer added by the group, inside it, it is possible to search and choose celestial bodies to verify more details about them. Also, it was made the inclusion of some examples and Variable Stars predicted by the group during the Machine Learning inclusion step, to classify stars, verifying if there is or not the presence of stellar variations. Finally, this tab also presents the reader with a legend and which functions are present in the visualizations, as well as how to use them.  
+
+3. **Learn** - This page contains a way to teach the reader about the subject of Variable Stars, with a series of educational videos made by the group during the challenge, the reader will be able to watch them and at the end of all the videos, test his knowledge obtained in a quiz created by the members.
+
+4. **Start Simulation** - In this section, there is the inclusion of a game made by the team, with the goal of allowing the reader to have an immersion in the subject, creating their own star. From options within the game, a programming flow is established and at the end, the reader is shown the final result generated, with a brief description of the star created and its variable behavior that can be observed in the form of a gif.
+
+5. **Resources** - On this page the reader can see all the data that was used by the group, as well as the software and libraries used. At the bottom of the page there is a section that tells how the group was formed and individual pictures of each member.
+
+6. **Chatbot** - The chatbot is not a page, but a function that is present throughout the site interactively. The reader can ask questions to an artificial intelligence instantiated by the group on the site, which was trained with data generated in an authorial way. With this, it is possible to learn more about the subject of the challenge and the functioning of the application, besides discovering several curiosities found by the group during the project in a playful and practical way.
 
 ## Prerequisites and resources used
 For the project to be realized, the following dependencies for ReactJS were used:
@@ -17,8 +22,7 @@ For the project to be realized, the following dependencies for ReactJS were used
 3. [Node Sass: 4.14.1](https://www.npmjs.com/package/node-sass/v/4.14.1)
 4. [jQuery](https://jquery.com)
 6. [Aladim Lite](https://aladin.u-strasbg.fr/AladinLite/)
-7. [mapboxgl](https://www.mapbox.com)
-8. [mapbox-gl-geocoder](https://github.com/mapbox/mapbox-gl-geocoder)
+7. [IBM Watson Assistant](www.ibm.com/watson)
   
 ## Step by step
 1. The team of 6 people met during 01/10/2022 and 02/10/2022, for 48 hours we collected data from NASA to feed our application
