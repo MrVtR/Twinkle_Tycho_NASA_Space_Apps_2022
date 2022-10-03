@@ -39,8 +39,8 @@ const Aladin = () => {
     <div
       id="aladin-lite-div"
       style={{
-        width: '80vw',
-        height: '80vh',
+        width: '78vw',
+        height: '78vh',
       }}
     />
   );
