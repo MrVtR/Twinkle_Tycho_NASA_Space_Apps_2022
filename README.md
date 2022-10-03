@@ -26,7 +26,7 @@ For the project to be realized, the following dependencies for ReactJS were used
   
 ## Step by step
 1. The team of 6 people met during 01/10/2022 and 02/10/2022, for 48 hours we collected data from NASA to feed our application
-2. I created the project and mapped the routes through React-router-dom, and configured the API requests with Axios
+2. I created the project and mapped the routes through React-router-dom
 3. I created the common components that could be used in the whole project
 4. I researched the libraries that use geolocation to be included inside our site
 5. During the middle of the competition, we finalized a game to make people aware of their actions by including it within the web application
