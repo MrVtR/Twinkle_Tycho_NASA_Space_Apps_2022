@@ -49,8 +49,8 @@ export default function Learn() {
         <iframe
           width="636"
           height="358"
-          src="https://www.youtube.com/embed/4O746lUintc"
-          title="Cyberpunk: Edgerunners Soundtrack -  I Really Want to Stay at Your House"
+          src="https://www.youtube.com/embed/0qNOoJKzdEI?list=PLQBlUD79L8DDtUIKVbtCZKZ8gpDyIHLwj"
+          title="MODULE 1: EMBARKING INTO THE UNIVERSE OF VARIABLE STARS"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
