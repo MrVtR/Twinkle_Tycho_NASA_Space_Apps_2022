@@ -77,8 +77,8 @@ export default function Learn() {
         <iframe
           width="636"
           height="358"
-          src="https://www.youtube.com/embed/4O746lUintc"
-          title="Cyberpunk: Edgerunners Soundtrack -  I Really Want to Stay at Your House"
+          src="https://www.youtube.com/embed/78gHZEL8lio?list=PLQBlUD79L8DDtUIKVbtCZKZ8gpDyIHLwj"
+          title="MODULE 2: PULSATING STARS AND THE NEIGHBOR GALAXY METER (CEPHEID VARIABLES)"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -88,8 +88,8 @@ export default function Learn() {
         <iframe
           width="636"
           height="358"
-          src="https://www.youtube.com/embed/4O746lUintc"
-          title="Cyberpunk: Edgerunners Soundtrack -  I Really Want to Stay at Your House"
+          src="https://www.youtube.com/embed/3HIZxRbpG44?list=PLQBlUD79L8DDtUIKVbtCZKZ8gpDyIHLwj"
+          title="MODULE 3: CATACLYSMIC VARIABLES (NOVAE E SUPERNOVAE)"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -116,8 +116,8 @@ export default function Learn() {
         <iframe
           width="636"
           height="358"
-          src="https://www.youtube.com/embed/4O746lUintc"
-          title="Cyberpunk: Edgerunners Soundtrack -  I Really Want to Stay at Your House"
+          src="https://www.youtube.com/embed/Wl81QVIRJp8?list=PLQBlUD79L8DDtUIKVbtCZKZ8gpDyIHLwj"
+          title="MODULE 4: EXTRINSIC VARIABLE STARS - ECLIPSING AND rotational VARIABLES"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -127,8 +127,8 @@ export default function Learn() {
         <iframe
           width="636"
           height="358"
-          src="https://www.youtube.com/embed/4O746lUintc"
-          title="Cyberpunk: Edgerunners Soundtrack -  I Really Want to Stay at Your House"
+          src="https://www.youtube.com/embed/ALDpPDjNThY?list=PLQBlUD79L8DDtUIKVbtCZKZ8gpDyIHLwj"
+          title="MODULE 5: PECULIAR VARIABLES"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
